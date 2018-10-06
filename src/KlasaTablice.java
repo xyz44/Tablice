@@ -4,7 +4,7 @@
 public class KlasaTablice {
     public KlasaTablice() {
     }
-    public long SumaTab2(int tab[][]) {
+    public static long SumaTab2(int tab[][]) {
         long suma = 0L;
 /*
         for(int i=0; i<tab.length; i++) {
@@ -20,7 +20,7 @@ public class KlasaTablice {
         }
         return suma;
     }
-    public long SumaTab3(int tab[][][]) {
+    public static long SumaTab3(int tab[][][]) {
         int max = tab[0][0][0];
 /*
         for(int i=0; i<tab.length; i++) {
